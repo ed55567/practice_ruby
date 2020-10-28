@@ -8,3 +8,6 @@ p book1["price"]
   
 
 
+class book
+  def initalize(book_name,color,price)
+    p initalize
