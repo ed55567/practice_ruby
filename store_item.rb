@@ -10,4 +10,8 @@ p book1["price"]
 
 class book
   def initalize(book_name,color,price)
-    p initalize
+    @book_name = input_book_name
+    @color = input_color
+    @price = input_price
+  end
+  
