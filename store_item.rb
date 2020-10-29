@@ -1,12 +1,14 @@
+#def example_method(book_name, color, price)
+#p [book_name, color, price]
+#end
 
-class book1
-  def initalize(book_name,color,price)
-    @book_name = input_book_name
-    @color = input_color
-    @price = input_price
-  end
+#example_method("HarryPotter", "Green", 30)
+#=>
+
+puts "Hello!"
+greeting = gets.chomp()
+if greeting == "Arrr!"
+  puts "Go away, pirate."
+else
+  puts "Greetings, hater of pirates!"
 end
-  
-  book1 =book.new("HarryPotter", "Green", 30)
-
-  p book1
